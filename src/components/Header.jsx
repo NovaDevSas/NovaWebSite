@@ -12,11 +12,9 @@ const Header = () => {
   ];
 
   return (
-    <header className="bg-gradient-to-r from-gray-900 to-black text-white py-6 shadow-2xl backdrop-blur-sm">
+    <header className="bg-gradient-to-b from-[#1a0738] via-[#100d3e] to-[#240b49] text-white py-6 shadow-2xl backdrop-blur-sm">
       <div className="container mx-auto flex flex-col md:flex-row items-center justify-between px-4">
-        <h1 className="text-4xl font-bold tracking-wide">
-          Nova Dev
-        </h1>
+        <h1 className="text-4xl font-bold tracking-wide">Nova Dev</h1>
         <nav className="mt-4 md:mt-0">
           <ul className="flex space-x-6">
             {navLinks.map((item) => (
